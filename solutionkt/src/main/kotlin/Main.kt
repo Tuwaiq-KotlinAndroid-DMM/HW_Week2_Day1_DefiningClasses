@@ -1,10 +1,16 @@
 //Solution Part1 "myCar"
 //class Car()
-/*{
+class Car(){
+
     var model : String ="Toyota"
     var manifacturedYear : Int = 2020
 
 
+}
+fun main (){
+    var mycar = Car()
+    println(mycar.model)
+    println(mycar.manifacturedYear)
 }
 
 
@@ -28,6 +34,15 @@ class Book(name: String, author:String, price:Double, availability:Boolean)
 
 
 }
+fun main(){
+    var Book1 = Book("name: Game of thrones", "Author: George Martin", 54.00, false)
+
+    var Book2 = Book("name: We Were Liars", "Author: E. Lockhart", 30.00, true)
+
+    println(Book1.bookdetails())
+    println(Book2.bookdetails())
+}
+
 
 
  */
